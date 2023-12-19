@@ -7,6 +7,7 @@ import { CgArrowDown, CgClose, CgLink, CgMail, CgMenu, CgPhone } from 'react-ico
 import { FaFacebook, FaInstagram, FaMinus, FaPlus, FaQ, FaTwitter, FaYoutube } from 'react-icons/fa6';
 import FileViewer from './FIleViewer';
 import { ChatEngine } from 'react-chat-engine';
+import ChatComponent from './ChatComponent';
 
 
 export function LiveChat() {
@@ -190,6 +191,7 @@ export function Layout({ children }) {
             {children}
             <CallToAction />
             <ContactUs />
+            <ChatComponent />
             <Footer />
         </>
     )
@@ -206,23 +208,26 @@ export function Footer() {
                     <ul className='space-y-2'>
                         <li><Link href={'/'}>Home</Link></li>
                         <li><Link href={'/about'}>About us</Link></li>
-                        <li><Link href={'/'}>Projects</Link></li>
+                        <li><Link href={'/projects'}>Projects</Link></li>
                         <li><Link href={'/#get-involved'}>Get Involved</Link></li>
-                        <li><Link href={'/'}>Donate</Link></li>
-                        <li><Link href={'/'}>News/Events</Link></li>
-                        <li><Link href={'/'}>Blog</Link></li>
+                        <li><Link href={'/donate'}>Donate</Link></li>
+                        <li><Link href={'/events'}>News/Events</Link></li>
+                        <li><Link href={'/blog'}>Blog</Link></li>
                     </ul>
                     <ul className='space-y-2'>
-                        <li><Link href={'/'}>Impact</Link></li>
-                        <li><Link href={'/'}>Gallery</Link></li>
+                        <li><Link href={'/projects#impact'}>Impact</Link></li>
+                        <li><Link href={'/gallery'}>Gallery</Link></li>
                         <li><Link href={'/#contact-us'}>Contact</Link></li>
-                        <li><Link href={'/'}>FAQ</Link></li>
-                        <li><Link href={'/'}>Privacy & Terms</Link></li>
-                        <li><Link href={'/'}>Get help</Link></li>
+                        <li><Link href={'/about#faq'}>FAQ</Link></li>
+                        <li><Link href={'/privacy'}>Privacy & Terms</Link></li>
+                        <li><Link href={'#contact-us'}>Get help</Link></li>
                     </ul>
                     </aside>
                 </div>
-                <p className='text-sm place-self-end font-bold'>© 2023 ESRO. All rights reserved</p>
+                <blockquote className='flex flex-col gap-4 items-center'>
+                    <p className='text-sm place-self-end font-bold'>© 2023 CatalystCanvas. All rights reserved</p>
+                    <Link href={'https://spadeshub.com'} className='text-sm place-self-end font-bold border-y rounded border-white animate-pulse p-2'>Website Powered by spades</Link>
+                </blockquote>
             </div>
             {/* Social Links */}
             <div className='flex items-center justify-center font-bold mt-4 text-xl'>

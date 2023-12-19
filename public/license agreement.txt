@@ -1,0 +1,74 @@
+**Catalyst Canvas License Agreement**
+
+This License Agreement (the "Agreement") is entered into by and between [Your Company Name], hereinafter referred to as the "Licensor," and [Client/Company Name], hereinafter referred to as the "Licensee."
+
+**1. Grant of License:**
+   a. The Licensor grants the Licensee a non-exclusive, non-transferable license to use the Catalyst Canvas website module (the "Software") in accordance with the terms and conditions outlined herein.
+
+**2. Scope of Use:**
+   a. The Licensee may use the Software for [specified purpose, e.g., building and maintaining a website].
+
+**3. Restrictions:**
+   a. The Licensee shall not modify, reverse engineer, decompile, or disassemble the Software.
+   b. The Licensee shall not sublicense, distribute, or transfer the Software to any third party without the express written consent of the Licensor.
+
+**4. Ownership:**
+   a. The Licensor retains all intellectual property rights, title, and interest in the Software.
+
+**5.0. Support and Updates:**
+   a. The Licensor agrees to provide technical support to the Licensee for the Software during the term of this Agreement.
+   b. Support may include assistance with installation, configuration, and addressing issues related to the functionality of the Software.
+   c. The Licensor may, at its discretion, provide updates, enhancements, or patches to the Software to improve performance or address identified issues.
+   d. The Licensee acknowledges that the provision of support and updates is subject to the Licensee's compliance with the terms of this Agreement.
+
+**5.1. Support Limitations:**
+   a. Support will be provided during regular business hours [specify hours and time zone].
+   b. Support does not include assistance with issues arising from the Licensee's misuse, modification, or unauthorized third-party intervention.
+
+**5.2. Duration of Support:**
+   a. The Licensor agrees to provide support for a period of [specify duration, e.g., one year] from the Effective Date of this Agreement.
+   b. The Licensee may have the option to renew support services upon expiration, subject to additional fees.
+
+**5.3. Update Notifications:**
+   a. The Licensor may notify the Licensee of available updates. The Licensee is responsible for implementing updates to ensure optimal performance.
+
+**5.4. Modification of Software:**
+   a. The Licensee agrees that modifications to the Software by the Licensor may be necessary for ongoing support and updates.
+
+
+**6. Payment:**
+   a. The Licensee agrees to pay the Licensor a total license fee of [Total Amount] for the use of the Catalyst Canvas website module.
+   b. The Licensee shall make a single upfront payment of [First Installment Amount] upon execution of this Agreement.
+   c. The Licensee shall make a second installment payment of [Second Installment Amount] on or before [Due Date].
+   d. The Licensee shall make a final installment payment of [Final Installment Amount] on or before [Due Date].
+
+**6.1. Late Payments:**
+   a. In the event that any installment payment is not received by the Licensor on or before the respective due date, the Licensor may charge a late fee of [Late Fee Amount] or [Late Fee Percentage] per day until the payment is received.
+
+**6.2. Failure to Pay:**
+   a. Failure to make any installment payment within [Number of Days Grace Period] days of the due date may result in the suspension or termination of the License.
+
+**6.3. Method of Payment:**
+   a. All payments shall be made in [Currency] through [Payment Method, e.g., bank transfer, check, etc.].
+
+**7. Term and Termination:**
+   a. This license is effective [start date] and will continue until terminated.
+   b. The Licensor may terminate the license if the Licensee breaches any terms of this Agreement.
+
+**8. Warranty and Disclaimer:**
+   a. The Software is provided "as is" without any warranty. The Licensor makes no representations or warranties regarding the functionality or performance of the Software.
+
+**9. Limitation of Liability:**
+   a. In no event shall the Licensor be liable for any consequential, incidental, indirect, or special damages arising out of the use or inability to use the Software.
+
+**10. Governing Law:**
+   a. This Agreement shall be governed by and construed in accordance with the laws of [your jurisdiction].
+
+**11. Entire Agreement:**
+   a. This Agreement constitutes the entire understanding between the parties and supersedes any prior agreements or understandings.
+
+IN WITNESS WHEREOF, the parties hereto have executed this Catalyst Canvas License Agreement as of the Effective Date.
+
+[Licensor Name]
+[Your Company Name]
+[Date]

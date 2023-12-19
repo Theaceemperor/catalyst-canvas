@@ -1,13 +1,23 @@
 {
-  "name": "spades-ngo",
+  "name": "catalyst-canvas",
   "version": "0.1.0",
-  "private": true,
+  "description": "A versatile website module for social impact organizations.",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Theaceemperor/catalyst-canvas.git"
+  },
+
+  "keywords": ["catalyst", "canvas", "website", "module"],
+  "author": "Excellent Omoobajesu",
+  "license": "MIT",
+
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
