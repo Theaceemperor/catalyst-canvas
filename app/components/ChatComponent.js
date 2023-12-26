@@ -6,6 +6,7 @@ const ChatComponent = () => {
   const [isChatOpen, setIsChatOpen] = useState(false);
   const [messages, setMessages] = useState([]);
   const [newMessage, setNewMessage] = useState('');
+  const timeSent = new Date();
   const [messageTime, setMessageTime] = useState(new Date().toLocaleTimeString());
 
   const toggleChat = () => {
@@ -15,13 +16,10 @@ const ChatComponent = () => {
   const handleSendMessage = (e) => {
     e.preventDefault();
     if (newMessage.trim() !== '') {
-      setMessages([...messages, { text: newMessage, sender: 'user', time: messageTime }]);
+      setMessages([...messages, { text: newMessage, sender: 'User', time: messageTime }]);
       setNewMessage('');
-      setMessageTime();
     }
   };
-
-  const timeSent = new Date()
 
   return (
     <div className="chat-container">
@@ -32,8 +30,8 @@ const ChatComponent = () => {
         <div className="chat-window">
           <div>
             {messages.map((msg, index) => (
-              <div key={index} className={`message ${msg.sender} p-2 bg-light-blue rounded mt-2 max-w-[60%]     text-left text-dark-ocean-blue flex flex-col shadow shadow-shadow-color`}>
-                <small className='font-bold flex justify-between'>{msg.sender}<span className='text-xs font-normal'>{msg.time}</span></small>
+              <div key={index} className={`message ${msg.sender} p-2 bg-light-blue rounded mt-2 max-w-[60%] text-left text-dark-ocean-blue flex flex-col shadow shadow-shadow-color`}>
+                <span className='font-semibold mb-1 flex justify-between text-md'>{msg.sender}<small className='font-normal'>{msg.time}</small></span>
                 {msg.text}
               </div>
             ))}
@@ -44,7 +42,7 @@ const ChatComponent = () => {
               value={newMessage}
               onChange={(e) => setNewMessage(e.target.value)}
               placeholder="Type your message..."
-              className='p-2 focus:outline-none border rounded border-light-gray mr-2'
+              className='p-2 focus:outline-none border rounded border-light-gray mr-2 placeholder:text-gray-600 text-gray-700'
             />
             <button type="submit">Send</button>
           </form>
