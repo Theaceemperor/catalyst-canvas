@@ -26,8 +26,8 @@ export function CallToAction() {
 
     return (
         <section className=''>
-            <div id='cta' className='container sm:mx-auto my-16 bg-ocean-blue text-white p-8 rounded-md'>
-                <SectionHeader headerLink={'#cta'} headerText={'Join Us in Making a Difference'} style={'hover:text-light-blue'} />
+            <div id='cta' className='container sm:mx-auto my-16 bg-ocean-blue text-white p-8 rounded-md flex justify-center items-center flex-col'>
+                <SectionHeader headerLink={'#cta'} headerText={'Join Us in Making a Difference'} style={'hover:text-light-blue justify-center'} />
                 <p className='text-lg mb-4'>Explore how you can contribute to our mission and make a positive impact.</p>
 
                 {/* CTA Button */}
@@ -152,7 +152,7 @@ export function ContactUs() {
     return (
         <section id='contact-us' className='bg-ocean-blue text-white py-16'>
             <div className='container mx-auto text-center'>
-            <SectionHeader headerLink={'#contact-us'} headerText={'Contact-Us'} style={'hover:text-light-blue'} />
+            <SectionHeader headerLink={'#contact-us'} headerText={'Contact-Us'} style={'hover:text-light-blue justify-center'} />
             <Text text={'Have questions or want to get in touch? Feel free to reach out to us.'} />
                 <div className='flex justify-center items-center space-x-4'>
                     {/* contact info */}

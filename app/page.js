@@ -93,7 +93,7 @@ export default function Home() {
 
       <section id='projects' className='py-16'>
         <div className='container px-2 mx-auto'>
-          <SectionHeader headerLink={'#projects'} headerText={'Our Projects'} />
+          <SectionHeader headerLink={'#projects'} headerText={'Our Projects'} style={'justify-center'} />
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
             {projects.map((project, index) => (
               <Project key={index} {...project} />
@@ -104,7 +104,7 @@ export default function Home() {
 
       <section id='get-involved' className='bg-light-gray py-16'>
         <div className='container px-2 mx-auto text-center'>
-          <SectionHeader headerLink={'#get-involved'} headerText={'Get Involved'} />
+          <SectionHeader headerLink={'#get-involved'} headerText={'Get Involved'} style={'justify-center'} />
           <p className='text-lg mb-8'>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae magni earum vitae, incidunt minus nesciunt veritatis.
           </p>
@@ -117,7 +117,7 @@ export default function Home() {
 
       <section id='testimonials' className='py-16'>
         <div className='container px-2 mx-auto text-center'>
-          <SectionHeader headerLink={'#testimonials'} headerText={'What Others Say'} />
+          <SectionHeader headerLink={'#testimonials'} headerText={'What Others Say'} style={'justify-center'} />
           <div className='grid grid-cols-1 md:grid-cols-1 lg:grid-cols-3 gap-4'>
             {testimonials.map((testimonial, index) => (
               <Testimonial key={index} {...testimonial} />

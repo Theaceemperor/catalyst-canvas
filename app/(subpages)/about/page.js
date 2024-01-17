@@ -29,7 +29,7 @@ export default function Page() {
             <SubHeader backgroundImage={'imgs/6.jpg'} pageTitle={'About Us'} />
             <div id="about" className="container mx-auto py-16 px-2">
                 <div className="text-center mb-8">
-                    <SectionHeader headerLink={'/about#about'} headerText={'About Our Organization'} />
+                    <SectionHeader headerLink={'/about#about'} headerText={'About Our Organization'} style={'justify-center'} />
                     <p className="text-gray-600">Discover our mission, vision, and the people behind our initiatives.</p>
                 </div>
 
@@ -73,7 +73,7 @@ export default function Page() {
 
                 {/* Services Section */}
                 <section id="services" className="my-16">
-                    <SectionHeader headerLink={'#services'} headerText={'Our Services/Features'} />
+                    <SectionHeader headerLink={'#services'} headerText={'Our Services/Features'} style={'justify-center'} />
 
                     {/*  Services/Features Cards */}
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
