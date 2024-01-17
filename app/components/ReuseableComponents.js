@@ -4,22 +4,9 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { CgArrowDown, CgClose, CgLink, CgMail, CgMenu, CgPhone } from 'react-icons/cg';
-import { FaFacebook, FaInstagram, FaMinus, FaPlus, FaQ, FaTwitter, FaYoutube } from 'react-icons/fa6';
+import { FaFacebook, FaInstagram, FaMinus, FaPlus, FaTwitter, FaYoutube } from 'react-icons/fa6';
 import FileViewer from './FIleViewer';
-import { ChatEngine } from 'react-chat-engine';
 import ChatComponent from './ChatComponent';
-
-
-export function LiveChat() {
-
-    return (
-        <ChatEngine
-        projectID="75b973f5-fe93-4f15-a4c9-f3ecb0cf3eac"
-        userName="SpadesDev"
-        userSecret="SpadesDev2023"
-        />
-    )
-}
 
 export function CallToAction() {
     const router = useRouter();
